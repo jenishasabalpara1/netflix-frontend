@@ -41,6 +41,7 @@ function Upload() {
         // console.log(response.data)
         // navigate('/admin/movies')
         console.log(data)
+        
         setName('')
         setDescription('')
         setType('')
