@@ -1,0 +1,34 @@
+.tvtable{
+    display: flex;
+}
+.twobutton{
+    display: flex;
+    gap: 49vw;
+    margin-top: 5vh;
+}
+.typehere{
+    display: flex;
+    gap: 0.5vw;
+}
+.tableorbtn{
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+    align-items: center;
+    width: 85%;
+}
+.table{
+    width: 90%;
+    border: 1px solid lightgrey;
+}
+td,th{
+    border: 1px solid;
+}
+.threebtn{
+    display: flex;
+    justify-content: space-evenly
+}
+.faeye{
+    width: 20px;
+    height: 20px;
+}

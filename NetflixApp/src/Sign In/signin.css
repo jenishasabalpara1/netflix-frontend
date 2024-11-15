@@ -1,0 +1,97 @@
+.headingsign{
+    font-size: 60px;
+    color: rgb(220, 47, 47);
+    padding-left: 155px;
+}
+body{
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+.box{
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 640px;
+    width: 455px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    border-radius: 10px;
+}
+.sign{
+    font-size: 48px;
+    color: white;
+    margin: 30px 0px 30px 0px;
+}
+.email,.password{
+    height: 55px;
+    width: 340px;
+    background: rgba(70, 90, 126, 0.4);
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+}
+.signbtn{
+    height: 40px;
+    width: 340px;
+    background-color:  rgb(220, 47, 47);
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-size: 18px;
+}
+.signbtn:hover,.use:hover,.signup:hover{
+    cursor: pointer;
+}
+.or{
+    font-size: 25px;
+    color: white;
+}
+.use{
+    height: 40px;
+    width: 340px;
+    background: rgba(70, 90, 126, 0.4);
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-size: 18px;
+}
+.newto{
+    display: flex;
+    font-size: 18px;
+}
+.new{
+    color: gray;
+    font-size: 18px;
+}
+.signup{
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+.mainbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.checkbox{
+    display: flex;
+    color: white;
+    align-items: center;
+}
+.forgate{
+    font-size: 18px;
+    color: white;
+}
+.prg{
+    font-size: 18px;
+    color: gray;
+}
+.signfooter{
+    background-color: black;
+    height: 450px;
+    color: white;
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    gap: 120px;
+    justify-content: center;
+}

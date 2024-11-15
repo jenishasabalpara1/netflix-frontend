@@ -1,0 +1,27 @@
+.avtar{
+    display: flex;
+    gap: 8rem;
+    background-color: black;
+    color: white;
+}
+.avtar-icon{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.avtar-name{
+    display: flex;
+    gap: 1rem;
+}
+.firavtar{
+   margin-top: 30px;
+}
+.side{
+    display: flex;
+    color: rgb(37, 37, 37);
+    margin-top: 20px;
+    gap: 10px;
+}
+.name{
+    margin-top: 10px;
+}

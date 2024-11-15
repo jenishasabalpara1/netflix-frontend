@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.signupnavbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.netflix {
+    padding-left: 35px;
+    font-size: 55px;
+    color: rgb(220, 47, 47);
+}
+.netflix:hover{
+    cursor: pointer;
+}
+
+.signin {
+    padding-right: 35px;
+    font-size: 25px;
+}
+
+.check {
+    display: flex;
+    gap: 15px;
+}
+
+.fa-regular {
+    font-size: 50px;
+    color: rgb(220, 47, 47);;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+
+.yourplan {
+    font-size: 35px;
+}
+
+.commitment {
+    font-size: 22px;
+}
+
+.main {
+    border: 1px solid lightgray;
+    height: 95vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chooseplan {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.next {
+    background-color: rgb(220, 47, 47);;
+    border: none;
+    color: white;
+    height: 58px;
+    font-size: 25px;
+    border-radius: 5px;
+    width: 25vw;
+}
+.next:hover{
+    cursor: pointer;
+}
+
+.greyfooter {
+    background-color: #f3f3f3;
+    height: 40vh;
+    display: flex;
+    gap: 30px;
+    color: rgb(117, 117, 117);
+    padding-left: 80px;
+    align-items: center;
+}
+
+.question {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.english {
+    width: 108px;
+    height: 50px;
+    font-size: 16px;
+    color: rgb(117, 117, 117);
+}

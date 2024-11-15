@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sidebar{
+    height: auto;
+    width: 12rem;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+    /* justify-content: center; */
+}
+.user{
+    width: 10rem;
+}

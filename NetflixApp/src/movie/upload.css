@@ -1,0 +1,49 @@
+.uploadimg{
+    height: 60vh;
+    width: 25vw;
+    margin-bottom: 3vh;
+    border-radius: 20px;
+}
+.upload{
+    display: flex;
+    gap: 10vw;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+}
+.uploadinput{
+    height: 6vh;
+    width: 20vw;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    margin-top: 5px;
+}
+.uploadin{
+    border: 1px solid black;
+    height: 75vh;
+    width: 28vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.inputfild{
+    border: 1px solid black;
+    height: 75vh;
+    width: 28vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+.labelin{
+    padding-bottom: 5px;
+}
+.labelin label{
+    font-weight: 600;
+}
+.uplodbtn{
+    display: flex;
+    gap: 15px;
+}

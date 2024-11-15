@@ -1,0 +1,28 @@
+.sportshow{
+    display: flex;
+    background-color: black;
+    gap: 10px;
+}
+.sportmain{
+    display: flex;
+    gap: 10px;
+}
+.sport1{
+    height: 125%;
+    width: 24%;
+    margin-top: 40px;
+}
+.sport{
+    display: flex;
+    flex-direction: column;
+    gap: 20vh;
+
+}
+.sport2{
+    height: 138%;
+    width: 24%;
+}
+.sportmain2{
+    display: flex;
+    gap: 10px;
+}

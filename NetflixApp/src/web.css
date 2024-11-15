@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.heading {
+    font-size: 60px;
+    color: rgb(220, 47, 47);
+}
+.heading :hover,.navbarbtn:hover,.navbarbtn2:hover,.get:hover{
+    cursor: pointer;
+}
+
+.navbarbtn,
+.navbarbtn2 {
+    height: 40px;
+    width: 115px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.navbarbtn {
+    background-color: black;
+    color: white;
+    border: white 1px solid;
+}
+
+.btn {
+    display: flex;
+    gap: 80px;
+}
+
+.navbarbtn2 {
+    background-color: rgb(220, 47, 47);;
+    color: white;
+}
+
+.bgimg {
+    background-image: url("./assets/movie5.jpg");
+    background-size: cover;
+    height: 800px;
+    width: 100%;
+    background-position: center;
+    /* position: absolute;  */
+}
+
+.tvshow {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 240px;
+}
+.unlimited{
+display: flex;
+flex-direction: column;
+gap: 12px;
+}
+
+.movie {
+    font-size: 50px;
+}
+
+.watch {
+    font-size: 33px;
+    margin: 12px 0px 10px 160px;
+}
+
+.ready {
+    font-size: 28px;
+}
+
+.inputfiled {
+    height: 50px;
+    width: 310px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(70, 90, 126, 0.4);
+    border: 1px solid whitesmoke;
+    font-size: 18px;
+}
+
+.get {
+    height: 50px;
+    width: 165px;
+    background:  rgb(220, 47, 47);;
+    border: none;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.inbtn {
+    margin-top: 20px
+}
+
+.greey-line {
+    background-color: rgb(95, 95, 95);
+    height: 9px;
+}
+
+.Enjoy {
+    background-color: black;
+    height: 450px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.enjoyprg {
+    font-size: 30px;
+}
+
+.enjoyh1 {
+    font-size: 55px;
+    margin-bottom: 22px;
+}
+
+.enjimg {
+    height: 375px;
+    width: 500px;
+}
+
+.enjoy2 {
+    background-color: black;
+    height: 450px;
+    color: white;
+    display: flex;
+    gap: 95px;
+    justify-content: center;
+}
+
+.footerprg p {
+    font-size: 19px;
+}
+
+.footerhed {
+    font-size: 19px;
+}
+
+.footerprg {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+}
+
+
+
+
+@media screen and (max-width: 468px){
+.bgimg{
+    width: 100%;
+}
+}

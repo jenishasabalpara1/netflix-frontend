@@ -1,0 +1,40 @@
+.databox{
+    border: 1px solid rgb(209, 204, 204);
+    height: 98vh;
+    padding: 0px 20px 0px 20px;
+    width: 20vw;
+    border-radius: 20px;
+}
+.databox:hover{
+    cursor: pointer;
+    box-shadow: 0px 2px 5px 5px rgb(222, 220, 220);
+}
+.mainbox{
+    display: flex;
+    gap: 20px;
+}
+.blue{
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px;
+    background: radial-gradient(140.76% 131.96% at 100% 100%, rgb(33, 114, 227) 0%, rgba(74, 42, 150, 0.5) 73.57%, rgba(74, 42, 150, 0) 100%), rgb(29, 82, 157);
+    height: 80px;
+    border-radius: 15px;
+    color: white;
+    padding-left: 20px;
+    margin: 20px 0px 20px 0px;
+}
+.grey{
+    color: rgb(114, 114, 114);
+}
+.alldata{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.datavalue{
+    font-weight: bold;
+}
+.fa-regular {
+    color: white;
+    font-size: 20px;
+    padding-left: 12rem;
+}
